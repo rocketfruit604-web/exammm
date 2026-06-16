@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEEFF1;
+    font-family: sans-serif;
+    color: #111;
+}
+
+.container {
+    max-width: 1480px;
+    margin: auto;
+    padding: 50px 20px 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 48px;
+    flex: 1;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.swiper {
+    width: 100%;
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; 
+}
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.search-wrap {
+    width: 275px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 999px;
+    border: 1px solid #999494;
+    background: #EEEFF1;
+    margin: 0 12px 0 40px;
+}
+
+.search-wrap img {
+    display: none;
+}
+
+.header .search-input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #777;
+    font-size: 16px;
+}
+
+.logo {
+    width: 82px;
+    flex: 0 0 auto;
+}
+
+.logo img,
+.icons img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img {
+    width: 110px;
+}
+
+.login {
+    max-width: 420px;
+    margin: 80px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 90px;
+    margin: 0 auto 20px;
+}
+
+.header .logo {
+    width: 78px;
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #999494;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 14px;
+}
+
+.op {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.op a {
+    color: #828282;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.og {
+    font-size: 13px;
+    color: #717171;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.og a {
+    color: #626262;
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.vhod {
+    font-size: 14px;
+}
+
+.vhod a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.shop-container {
+    max-width: 1240px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.sidebar {
+    width: 160px;
+    flex-shrink: 0;
+}
+
+.sidebar h3 {
+    margin-bottom: 20px;
+}
+
+.categories {
+    list-style: none;
+}
+
+.categories li {
+    margin-bottom: 12px;
+}
+
+.categories a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 6px 0;
+}
+
+.kross {
+    margin: 20px 0 0 0;
+    max-width: 1600px;
+    padding: 0 38px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kross-img {
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.kross-text {
+    margin-top: 28px;
+    max-width: 620px;
+}
+
+.kross-text span {
+    display: block;
+    font-size: 11px;
+}
+
+.kross-text h1 {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 7px 0 16px;
+    letter-spacing: 0;
+}
+
+.kross-text p {
+    max-width: 500px;
+    margin: auto;
+    color: #111;
+    font-size: 11px;
+    line-height: 1.55;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 8px 17px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.title {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.yt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.ka {
+    width: min(100%, 300px);
+    background: rgb(247, 243, 243);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.ka img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.ka-text {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.cho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.ch {
+    position: relative;
+    width: min(100%, 300px);
+}
+
+.ch img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.ch a {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.product-image {
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #000;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    z-index: 1;
+}
+
+.ka-text h1 {
+    padding: 12px 12px 4px;
+    line-height: 1.4;
+    min-height: 34px;
+    color: #000;
+    font-size: 16px;
+}
+
+.ka-text p {
+    padding: 0 12px;
+    margin-bottom: 4px;
+    color: #636363;
+    font-size: 13px;
+}
+
+.ka-text .color {
+    color: #929191;
+    margin-top: 4px;
+}
+
+.ka-text span {
+    color: #000;
+    padding: 8px 12px 12px;
+    display: block;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.konec-yra {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 220px;
+    background: #111;
+    color: #fff;
+    padding: 42px 26px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+    border-bottom: 1px solid #777;
+}
+
+.col {
+    width: 150px;
+}
+
+.col:nth-child(2) {
+    width: 260px;
+}
+
+.col:nth-child(3) {
+    margin-right: auto;
+}
+
+.col h4 {
+    font-size: 9px;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.col p {
+    font-size: 10px;
+    color: #7f7f7f;
+    margin: 0 0 17px;
+    cursor: pointer;
+}
+
+.col:first-child p {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.col p:hover {
+    color: #fff;
+}
+
+.seti {
+    margin-left: auto;
+}
+
+.seti img {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+@media (max-width: 980px) {
+    .container { padding: 16px; }
+    .header { justify-content: center; }
+    .nav { margin-left: 0; gap: 16px; }
+    .login { margin: 60px auto; }
+    .kross { margin-top: 28px; padding: 0 18px; }
+    .konec-yra { padding: 40px 25px; }
+}
+
+@media (max-width: 768px) {
+    .header { flex-direction: column; align-items: stretch; }
+    .nav { justify-content: center; gap: 12px; }
+    .search-wrap { width: 100%; max-width: 420px; }
+    .search-input { width: 100%; max-width: 420px; }
+    .op { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .yt, .cho { flex-direction: column; align-items: center; gap: 20px; }
+    .ka, .ch { width: 100%; max-width: 340px; }
+    .konec-yra { flex-direction: column; align-items: stretch; padding: 30px 20px; }
+    .col { width: 100%; }
+}
+
+@media (max-width: 480px) {
+    .container { padding: 12px; }
+    .login { margin: 40px auto; padding: 0 16px; }
+    h1 { font-size: 22px; }
+    input[type="text"], input[type="email"], input[type="password"], button { font-size: 14px; }
+    .kross { padding: 0 12px; }
+    .kross-text h1 { font-size: 28px; }
+    .kross-text p, .nav a, .col p { font-size: 13px; }
+    .btn { padding: 12px 18px; }
+    .konec-yra { padding: 25px 16px; }
+    .nav { gap: 10px; flex-wrap: wrap; }
+}
